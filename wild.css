@@ -1,0 +1,299 @@
+/* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
+/* Ecris ici ton code CSS */
+
+/* Attributs du corps de la page */
+   body {
+   background-image:url(https://www.weekendnotes.com/im/004/00/circusoz2018modelcitizensjamiewilliams15061.jpg);
+   background-size: cover;     
+   background-position: center;
+   background-attachment: fixed;
+   color: #050054;
+   letter-spacing: 1px;
+   line-Height: 1.5;
+   font-family: amatic sc,arial,sans-serif}
+
+/* Atributs du titre h1 */
+ /* Mise en forme du titre */
+h1 {
+  font-size:170px;
+  line-Height: 1;
+  font-weight:bold;
+  text-align:center;
+  color:#FF1111;
+  text-shadow: 5px 5px 3px #D8B411;
+  background-color: rgba(54,83,170,0.30);
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  letter-spacing: 10px;
+  margin: 2px}
+
+/* Atributs du titre h2 */
+ /* Mise en forme du titre */
+h2 {
+  font-size:350%; 
+  line-Height: 1;
+  font-weight:bold;
+  text-align:center;
+  color:#CEB57B;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius:25px;
+  border-top-right-radius:25px;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  box-shadow:3px 3px 2px 0px #25282B;
+  border:1px solid #38251D;
+  width:48%;
+  padding:0; 
+  margin-top:80px;
+  margin-bottom:22px;
+  letter-spacing: 6px;
+  background-color: rgba(5,0,84,0.9)}
+
+/* Police du titre h3 */
+h3 {
+  font-size:170%;
+  font-style: italic;
+  font-weight: bold;
+  color:#CEB57B;
+  letter-spacing: 2px;
+  border: 2px solid #38251D;
+	border-radius: 50%;
+  background-color: rgba(5,0,84,0.9);
+  margin: 6px}
+
+/* Marges des paragraphes */
+p  {
+  margin: -3px}
+
+/* Attributs des liens */
+a:link, a:visited, a:active {
+  color: #050051;
+  text-decoration-line: none}
+
+/* Attributs de la liste menu */
+ /* Mise en forme de la liste */
+.menu li { 
+  flex-basis: 18%;
+  text-align: center; 
+  font-size: 270%;
+  letter-spacing: 1px;
+  line-Height: 1.3;
+  font-weight: bold;
+  border:1px solid #0F0A08; 
+  background-color: rgba(206,181,123,0.8);
+  box-shadow:3px 3px 2px 0px #25282B;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  margin-left: auto;
+  margin-right: auto}
+
+ /* Survol de la liste menu*/
+.menu li:hover{
+  transform:translate(2px,10px);
+  background-color:rgba(206,181,123)}
+
+/* Affichage des listes Menu et perf */
+.menu, #perf, #about {
+  list-style:none;
+  display: flex;
+  justify-content:space-around}
+
+/* Attributs de la liste perf et about */
+ /* Mise en forme des listes */
+#perf li, #about li { 
+  flex-basis: 28%;
+  width:93%;
+  text-align: center;
+  padding: 1%;
+  font-size: 150%;
+  font-weight:bold;
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius:15px;
+  box-shadow:7px 7px 2px 0px #2D2D2B;
+  border:1px solid #0F0A08;
+  background-color: rgba(206,181,123,0.7)}
+
+ /* Attributs des images de la liste perf*/
+.img_perf {
+  filter: sepia(70%)}
+
+/* Attributs des images de la liste about*/
+.img_about {
+  filter: sepia(70%)}
+
+/* Zoom de la liste perf */
+#perf li:hover{
+  transform:scale(1.07);
+  background-color: rgba(206,181,123);
+  cursor:help}
+
+/* Zoom de la liste about */
+#about li:hover{
+  transform:scale(1.07);
+  background-color: rgba(206,181,123);
+  cursor:help}
+
+/* Attributs du tableau de prix */
+ /* Police de la légende du tableau */
+table caption{
+  background-color: rgba(206,181,123,0.85);
+  box-shadow:2px 2px 2px 0px #25282B;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  width:78%;
+  font-size:140%;
+  color:#840909;
+  font-weight:bold;
+  margin-left: auto;
+  margin-right: auto}
+
+ /* Mise en forme du tableau */
+table{
+  table-layout:fixed;
+  width:70%;
+  font-size: 160%;
+  color: #38251D;
+  font-weight:bold;
+  margin-left: auto;
+  margin-right: auto}
+
+ /* Mise en forme de l'en-tête du tableau */
+th {
+  height: 300%; 
+  text-align: center;
+  background-color: rgba(206,181,123,0.9);
+  box-shadow:3px 3px 2px 0px #25282B;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;}
+
+ /* Mise en forme des cellules du tableau */
+td {
+  height: 500%;
+  text-align: center; 
+  background-color: rgba(219,219,219,0.9);
+  box-shadow:3px 3px 2px 0px #25282B;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;}
+
+/* Zoom du tableau */
+table:hover{
+  transform:scale(1.1);
+  cursor:help}
+
+/* Attributs du formulaire de contact */
+ /* Police de la légende du formulaire */
+legend {
+  font-size:170%;
+  text-align:center;
+  color:#840909;
+  font-weight:bold}
+
+ /* Mise en forme du formulaire */
+form {
+  border:1px solid #0F0A08;
+  background-color: rgba(206,181,123,0.85);
+  padding:12px;
+  width:500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top-left-radius:15px;
+  border-bottom-left-radius:15px;
+  box-shadow:7px 7px 2px 0px #2D2D2B;
+  font-size:140%;
+  font-weight:bold;
+  color: #38251D;
+  cursor:help}
+
+ /* Mise en forme des champs mail et first_name du formulaire */
+#mail, #first_name {
+  background-color:#DDCEEA;
+  padding:5px;
+  border:1px solid #000000;
+  width:480px;
+  cursor:text}
+
+/* Mise en forme du champ last_name du formulaire */
+#last_name {
+  background-color:#DDCEEA;
+  padding:5px;
+  border:1px solid #000000;
+  border-top-left-radius:10px;
+  width:480px;
+  cursor:text}
+
+/* Mise en forme du champ message du formulaire */
+#message {
+  background-color:#DDCEEA;
+  padding:5px;
+  border:1px solid #000000;
+  border-bottom-left-radius:10px;
+  width:480px;
+  cursor:text}
+
+/* Mise en forme du texte de substition des champs du formulaire */
+::placeholder {
+  color: black;
+  font-size: 90%;
+  font-family:arial;
+  font-style: italic}
+
+/* Police du bouton send du formulaire */
+#send {
+  font-size:80%}
+
+/* Bascule couleur du fond du formulaire au survol souris*/
+form:hover{
+  background-color: rgba(206,181,123)}
+
+/* Mise en forme du footer */
+footer  {
+  font-family: arial,sans-serif;
+  color: #000000;
+  font-size:100%; 
+  font-weight:bold;
+  background-color: rgba(175,175,175,0.8);
+  box-shadow:3px 2px 2px 0px #25282B;
+  text-align:center;
+  border:1px solid #3D2C23}
+
+/* Affichage des liens du footer */
+.liens_footer {
+  display: flex;
+  font-size:80%; 
+  font-weight:normal;
+  justify-content:space-around}
+
+/* Bascule couleur du fond du footer au survol souris*/
+footer:hover{
+  background-color: rgba(175,175,175);
+cursor:help}
+
+/* Attributs du lien Home */
+#lien_home{ 
+  font-family: amatic sc;
+  width:35%;
+  text-align: center; 
+  font-size: 170%;
+  letter-spacing: 2px;
+  line-Height: 1.3;
+  font-weight: bold;
+  border:1px solid #0F0A08; 
+  background-color: rgba(206,181,123,0.8);
+  box-shadow:3px 3px 2px 0px #25282B;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+  margin-left: auto;
+  margin-right: auto}
+
+/* Survol de la liste menu*/
+#lien_home:hover{
+  transform:translate(0px,6px);
+  background-color:rgba(206,181,123)}
